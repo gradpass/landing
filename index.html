@@ -19,7 +19,65 @@
         <script src="tailwind.js"></script>
     </head>
     <body class="overscroll-none font-['Nunito'] bg-black text-white">
-        <!--TODO:-->
+        <div class="bg-zinc-800">
+            <div id="scrolled-title" class="flex justify-center items-center container mx-auto py-4 px-4">
+                <div class="cursor-pointer rounded-full active:bg-white active:bg-opacity-20 active:shadow-lg">
+                    <div class="flex flex-row gap-2 justify-center items-center">
+                        <div><img src="/logo.png" class="w-10"></div>
+                        <div class="text-3xl font-bold">Gradpass</div>
+                    </div>
+                </div>
+                <div class="flex-grow"></div>
+                <div></div>
+            </div>
+        </div>
+        <!---->
+        <div class="flex flex-col gap-20">
+            <div class="h-[100vh] bg-blue-700 relative overflow-hidden">
+                <div class="container mx-auto py-10 px-4 h-full -mt-10 flex justify-center items-center">
+                    <div class="flex flex-col-reverse md:flex-row justify-between items-center gap-40">
+                        <div class="max-w-[600px]">
+                            <h1 class="text-7xl sm:text-8xl font-black">Be Prepared To Graduate.</h1>
+                            <span class="text-4xl font-bold">Easily view grades, assignments, and more from Echo, all in one place.</span>
+                            <div class="flex flex-row gap-5 mt-5">
+                                <button class="flex-1 w-full px-4 py-5 bg-zinc-800 transition text-white font-bold rounded-xl hover:bg-zinc-900">Learn More</button>
+                                <button class="flex-1 w-full px-4 py-5 bg-zinc-800 transition text-white font-bold rounded-xl hover:bg-zinc-900">Installing</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-[1.1rem] mb-[1.8rem] container mx-auto py-10 px-4">
+                <!--TODO:-->
+            </div>
+        </div>
+        <!--TODO: may change-->
+        <footer class="text-white bg-zinc-800">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="/logo.png" class="h-10"/>
+                        <span class="text-3xl font-bold">Gradpass</span>
+                    </a>
+                    <ul class="flex flex-wrap items-center text-normal font-bold mt-5">
+                        <li>
+                            <a href="#" class="me-4 md:me-6">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="me-4 md:me-6">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="me-4 md:me-6">How To Install</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-zinc-200 sm:mx-auto lg:my-8"/>
+                <span class="block font-bold sm:text-center">© 2023-2024 Wo-r. All Rights Reserved.</span>
+            </div>
+        </footer>
     </body>
     <script src="jquery.js"></script>
     <script type="module" src="script.js" defer></script>
