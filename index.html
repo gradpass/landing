@@ -46,7 +46,9 @@
             </div>
         </div>
         <!---->
-        <div class="flex flex-col mt-16 gap-20">
+        <!--TODO: Installing-->
+        <!---->
+        <div class="flex flex-col mt-16 mb-[300px] gap-20">
             <div class="container mx-auto py-10 mt-20 flex justify-center items-center">
                 <div class="flex flex-col-reverse md:flex-row justify-between items-center gap-10 md:gap-40">
                     <div class="sm:text-left text-center">
@@ -65,7 +67,7 @@
             <!---->
             <div class="container mx-auto py-10 mt-10 flex flex-col gap-20">
                 <div class="w-full mb-5">
-                    <h1 class="text-7xl sm:text-left text-center font-black">Gallery</h1>
+                    <h1 class="text-7xl text-center font-black">Gallery</h1>
                 </div>
                 <div class="flex flex-col gap-5 overflow-hidden overflow-scroll">
                     <!--390x720-->
@@ -85,35 +87,137 @@
             <!---->
             <div class="container mx-auto py-10 mt-10 flex flex-col gap-20">
                 <div class="w-full mb-5">
-                    <h1 class="text-7xl sm:text-left text-center font-black">Features</h1>
+                    <h1 class="text-7xl text-center font-black">Features</h1>
                 </div>
-                <div class="flex flex-col">
-                    <!--TODO: change-->
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5 border-b-[3px] border-blue-700 pb-5">
-                        <span class="flex-1 text-3xl font-bold">Percentage Grades</span>
-                        <span class="flex-1 font-bold text-center">Grades will always be percentages instead of standards.</span>
+                <div class="flex flex-col gap-[100px]">
+                    <div class="flex md:flex-row flex-col md:justify-left justify-center md:gap-10">
+                        <div class="w-full md:w-fit flex md:justify-start justify-center"><img src="images/zoomed-courses.png" class="min-w-[400px] h-[700px]"></div>
+                        <div class="py-10 sm:py-20 flex flex-col md:justify-start justify-center">
+                            <h1 class="text-4xl font-black">Grades are always a percentage.</h1>
+                            <span class="font-bold">Ever had a course using standard grades? These grades are representive of objective scoring, showcasing competion of each objective. However these standards do not show your score; if your passing or failing. Making it a guessing game when it comes to grades. This app allows you to see your courses grades as a percentage always.</span>
+                            <div class="flex justify-center flex-row mt-10 gap-10">
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">From This</h1>
+                                    <img src="images/standards.png" class="w-[200px]">
+                                </div>
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">To This</h1>
+                                    <img src="images/percentage.png" class="w-[400px]">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5 border-b-[3px] border-blue-700 py-5">
-                        <span class="flex-1 text-3xl font-bold">Detailed Calendar</span>
-                        <span class="flex-1 font-bold text-center">Calendar will show due assignements and completed assignments.</span>
+                    <div class="flex md:flex-row-reverse flex-col md:justify-left justify-center md:gap-10">
+                        <div class="w-full md:w-fit flex md:justify-start justify-center"><img src="images/zoomed-calendar.png" class="min-w-[400px] h-[700px]"></div>
+                        <div class="py-10 sm:py-20 flex flex-col md:justify-start justify-center">
+                            <h1 class="text-4xl font-black">Never miss assignments again.</h1>
+                            <span class="font-bold">The calendar shows completed and due assignments from the entire month. Click on a day to see everything that was assigned to it.</span>
+                            <div class="flex justify-center flex-row mt-10 gap-10">
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">From This</h1>
+                                    <img src="images/echo-calendar.png" class="w-[300px]">
+                                </div>
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">To This</h1>
+                                    <img src="images/gradpass-calendar.png" class="w-[345px]">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5 border-b-[3px] border-blue-700 py-5">
-                        <span class="flex-1 text-3xl font-bold">GPA for the semester</span>
-                        <span class="flex-1 font-bold text-center">Shows your current GPA outcome for the current semeter courses.</span>
+                    <div class="flex md:flex-row flex-col md:justify-left justify-center md:gap-10">
+                        <div class="w-full md:w-fit flex md:justify-start justify-center"><img src="images/zoomed-gpa.png" class="min-w-[400px] h-[700px]"></div>
+                        <div class="py-10 sm:py-20 flex flex-col md:justify-start justify-center">
+                            <h1 class="text-4xl font-black">Instantly get your semester GPA.</h1>
+                            <span class="font-bold">Need to know what your GPA will be? Use the GPA calculator feature of Gradpass! Easily calculate your GPA at the semester with your current grades.</span>
+                            <div class="flex md:justify-start justify-center flex-col mt-10 gap-10">
+                                <div class="flex flex-col gap-5">
+                                    <h1 class="text-2xl font-bold mb-5">Includes:</h1>
+                                    <div class="flex flex-row gap-2 justify-start items-center">
+                                        <svg height="24" viewBox="0 -1000 1000 1000" width="24">
+                                            <path class="fill-green-500" d="m421-449-57-57q-18.8-19-45.4-19-26.6 0-45.6 18.5T254.5-461q.5 27 19.5 45l99 99q20.18 21 48.09 21Q449-296 469-317l213-212q19-18.8 19-44.9 0-26.1-18.84-45.1t-45.5-19Q610-638 591-619L421-449Zm59 415q-92.64 0-174.47-34.6-81.82-34.61-142.07-94.86T68.6-305.53Q34-387.36 34-480q0-92.9 34.66-174.45 34.67-81.55 95.18-141.94 60.51-60.39 142.07-95Q387.48-926 480-926q92.89 0 174.48 34.59 81.59 34.6 141.96 94.97 60.37 60.37 94.97 141.99Q926-572.83 926-479.92q0 92.92-34.61 174.25-34.61 81.32-95 141.83Q736-103.33 654.45-68.66 572.9-34 480-34Z"/>
+                                        </svg>
+                                        <span class="font-bold">
+                                            Choose between a half or full semester course.
+                                        </span>
+                                    </div>
+                                    <div class="flex flex-row gap-2 justify-start items-center">
+                                        <svg height="24" viewBox="0 -1000 1000 1000" width="24">
+                                            <path class="fill-green-500" d="m421-449-57-57q-18.8-19-45.4-19-26.6 0-45.6 18.5T254.5-461q.5 27 19.5 45l99 99q20.18 21 48.09 21Q449-296 469-317l213-212q19-18.8 19-44.9 0-26.1-18.84-45.1t-45.5-19Q610-638 591-619L421-449Zm59 415q-92.64 0-174.47-34.6-81.82-34.61-142.07-94.86T68.6-305.53Q34-387.36 34-480q0-92.9 34.66-174.45 34.67-81.55 95.18-141.94 60.51-60.39 142.07-95Q387.48-926 480-926q92.89 0 174.48 34.59 81.59 34.6 141.96 94.97 60.37 60.37 94.97 141.99Q926-572.83 926-479.92q0 92.92-34.61 174.25-34.61 81.32-95 141.83Q736-103.33 654.45-68.66 572.9-34 480-34Z"/>
+                                        </svg>
+                                        <span class="font-bold">
+                                            Choose if a course is an AP or regular class.
+                                        </span>
+                                    </div>
+                                    <div class="flex flex-row gap-2 justify-start items-center">
+                                        <svg height="24" viewBox="0 -1000 1000 1000" width="24">
+                                            <path class="fill-green-500" d="m421-449-57-57q-18.8-19-45.4-19-26.6 0-45.6 18.5T254.5-461q.5 27 19.5 45l99 99q20.18 21 48.09 21Q449-296 469-317l213-212q19-18.8 19-44.9 0-26.1-18.84-45.1t-45.5-19Q610-638 591-619L421-449Zm59 415q-92.64 0-174.47-34.6-81.82-34.61-142.07-94.86T68.6-305.53Q34-387.36 34-480q0-92.9 34.66-174.45 34.67-81.55 95.18-141.94 60.51-60.39 142.07-95Q387.48-926 480-926q92.89 0 174.48 34.59 81.59 34.6 141.96 94.97 60.37 60.37 94.97 141.99Q926-572.83 926-479.92q0 92.92-34.61 174.25-34.61 81.32-95 141.83Q736-103.33 654.45-68.66 572.9-34 480-34Z"/>
+                                        </svg>
+                                        <span class="font-bold">
+                                            After setting up what each class is, it will constantly update your GPA based on your current grades.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="font-bold mt-20">Knowing your GPA is important! Make sure it's high up there easily and quickly using this feature.</span>
+                        </div>
                     </div>
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5 border-b-[3px] border-blue-700 py-5">
-                        <span class="flex-1 text-3xl font-bold">Contacts</span>
-                        <span class="flex-1 font-bold text-center">Easily find and email any teacher you are enrolled to.</span>
+                    <!--TODO:-->
+                    <div class="flex md:flex-row-reverse flex-col md:justify-left justify-center md:gap-10">
+                        <div class="w-full md:w-fit flex md:justify-start justify-center"><img src="images/zoomed-course.png" class="min-w-[400px] h-[700px]"></div>
+                        <div class="py-10 sm:py-20 flex flex-col md:justify-start justify-center">
+                            <h1 class="text-4xl font-black">Have complex details of each specific course.</h1>
+                            <span class="font-bold">Never miss what your objective scores are again! All objective scores for a course are always shown on the courses page. The courses page also shows grades for every bit of work you have completed.</span>
+                            <div class="flex justify-center flex-row mt-10 gap-10">
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">From This</h1>
+                                    <img src="images/echo-course.png" class="w-[240px]">
+                                </div>
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">To This</h1>
+                                    <img src="images/gradpass-course.png" class="w-[230px]">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5 border-b-[3px] border-blue-700 py-5">
-                        <span class="flex-1 text-3xl font-bold">Detailed Courses</span>
-                        <span class="flex-1 font-bold text-center">Find everything for a course (e.g: Objectives, Work, and more).</span>
-                    </div>
-                    <div class="flex flex-col sm:flex-row justify-center items-center gap-5 pt-5">
-                        <span class="flex-1 text-3xl font-bold">Hide Unwanted Courses</span>
-                        <span class="flex-1 font-bold text-center">Completely hide courses that you are not in anymore, but still exist.</span>
+                    <div class="flex md:flex-row flex-col md:justify-left justify-center md:gap-10">
+                        <div class="w-full md:w-fit flex md:justify-start justify-center"><img src="images/zoomed-hide-courses.png" class="min-w-[400px] h-[700px]"></div>
+                        <div class="py-10 sm:py-20 flex flex-col md:justify-start justify-center">
+                            <h1 class="text-4xl font-black">Hide any course that you do not need anymore.</h1>
+                            <span class="font-bold">Have an expired course? Or a course that you are not in anymore yet still exists in your courses page? Easily remove them with this feature. Simply click on a course name to hide it completely from your account. This also accounts for GPA, Average Objectives, and Average Score grades.</span>
+                            <div class="flex justify-center flex-row mt-10 gap-10">
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">From This</h1>
+                                    <img src="images/echo-courses.png" class="w-[240px]">
+                                </div>
+                                <div>
+                                    <h1 class="text-2xl font-bold mb-1">To This</h1>
+                                    <img src="images/gradpass-courses.png" class="w-[230px]">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <!---->
+            <div class="container mx-auto py-10 mt-10 flex flex-col gap-20">
+                <div class="w-full mb-5">
+                    <h1 class="text-7xl text-center font-black">Contact</h1>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-5">
+                    <div class="flex-1 flex flex-col justify-center items-center gap-5">
+                        <img src="logo.png" class="rounded-full w-[100px]">
+                        <span class="font-bold">gradpass.official@gmail.com</span>
+                    </div>
+                    <div class="flex-1 font-bold w-[800px] text-center">
+                        I'm happy to respond to questions, concerns or additions to this app. It's always being updated, and upgraded. Making it faster, and better day by day.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="bg-zinc-800">
+            <div class="flex container mx-auto py-6 font-bold">
+                &copy; Gradpass, Created for the betterment of Echo!
             </div>
         </div>
     </body>
