@@ -55,8 +55,8 @@
                         <h1 class="text-4xl xs:text-5xl sm:text-7xl font-black">Be Prepared To Graduate.</h1>
                         <span class="text-xl xs:text-2xl sm:text-3xl font-bold">Easily view grades, assignments, and more from Echo, all in one place.</span>
                         <div class="flex flex-col sm:flex-row gap-2 sm:gap-5 mt-5">
-                            <button class="flex-1 w-full px-4 py-3 sm:px-4 sm:py-5 bg-blue-700 transition text-white font-bold rounded-xl hover:bg-blue-600">Learn More</button>
-                            <button class="flex-1 w-full px-4 py-3 sm:px-4 sm:py-5 bg-blue-700 transition text-white font-bold rounded-xl hover:bg-blue-600">Installing</button>
+                            <button goto="#features" class="flex-1 w-full px-4 py-3 sm:px-4 sm:py-5 bg-blue-700 transition text-white font-bold rounded-xl hover:bg-blue-600">Learn More</button>
+                            <button goto="#installing" class="flex-1 w-full px-4 py-3 sm:px-4 sm:py-5 bg-blue-700 transition text-white font-bold rounded-xl hover:bg-blue-600">Installing</button>
                         </div>
                     </div>
                     <div>
@@ -87,7 +87,7 @@
             <!---->
             <div class="container mx-auto py-10 mt-10 flex flex-col gap-20">
                 <div class="w-full mb-5">
-                    <h1 class="text-7xl text-center font-black">Features</h1>
+                    <h1 id="features" class="text-7xl text-center font-black">Features</h1>
                 </div>
                 <div class="flex flex-col gap-[100px]">
                     <div class="flex md:flex-row flex-col md:justify-left justify-center md:gap-10">
@@ -207,12 +207,55 @@
             <!---->
             <div class="container mx-auto py-10 mt-10 flex flex-col gap-20">
                 <div class="w-full mb-5">
+                    <h1 id="installing" class="text-7xl text-center font-black">Installing</h1>
+                </div>
+                <div class="flex flex-col md:flex-row gap-20 justify-between">
+                    <div class="flex-1 w-full flex flex-col justify-start items-center gap-20">
+                        <img src="images/chrome.png" class="w-max h-[300px]">
+                        <div>
+                            <h1 class="text-3xl text-center font-black">Installing on Chrome</h1>
+                            <ul class="mt-5 flex flex-col gap-2 w-[400px]">
+                                <li class="font-bold">IF THE INSTALL PROMPT APPEARS</li>
+                                <li class="flex gap-5"><span>1.</span><span>Wait for the <b>Install</b> popup to appear (Should appear at the top of the browser).</span></li>
+                                <li class="flex gap-5"><span>2.</span><span>Click <b>Install</b>.</span></li>
+                                <li class="flex gap-5"><span>3.</span><span>Thats it! Enjoy Gradpass!</span></li>
+                                <li class="font-bold mt-5">IF THE INSTALL PROMPT DOESN'T APPEAR</li>
+                                <li class="flex gap-5"><span>1.</span><span>Click the 3 dots at the top right of the navbar.</span></li>
+                                <li class="flex gap-5"><span>2.</span><span>Look for <b>Install Gradpass</b>.</span></li>
+                                <li class="flex gap-5"><span>3.</span><span>Click <b>Install Gradpass</b>.</span></li>
+                                <li class="flex gap-5"><span>4.</span><span>Thats it! Enjoy Gradpass!</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full flex flex-col justify-start items-center gap-20">
+                        <img src="images/safari.png" class="w-max h-[300px]">
+                        <div>
+                            <h1 class="text-3xl text-center font-black">Installing on Safari</h1>
+                            <ul class="mt-5 flex flex-col gap-2 w-[400px]">
+                                <li class="flex gap-5"><span>1.</span><span>Look for the Share Menu (Should be located in the middle right below the search bar).</span></li>
+                                <li class="flex gap-5"><span>2.</span><span>Click the <b>Share Menu</b> button.</span></li>
+                                <li class="flex gap-5"><span>3.</span><span>Sroll down until you find <b>Add to Home Screen</b>.</span></li>
+                                <li class="flex gap-5"><span>4.</span><span>Click the <b>Add to Home Screen</b> button.</span></li>
+                                <li class="flex gap-5"><span>5.</span><span>After clicking, Look for <b>Add</b> at the top right of the navbar.</span></li>
+                                <li class="flex gap-5"><span>6.</span><span>Click <b>Add</b>.</span></li>
+                                <li class="flex gap-5"><span>7.</span><span>Thats it! Enjoy Gradpass!</span></li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="container mx-auto py-10 mt-10 flex flex-col gap-20">
+                <div class="w-full mb-5">
                     <h1 class="text-7xl text-center font-black">Contact</h1>
                 </div>
                 <div class="flex flex-col justify-center items-center gap-5">
                     <div class="flex-1 flex flex-col justify-center items-center gap-5">
                         <img src="logo.png" class="rounded-full w-[100px]">
-                        <span class="font-bold">gradpass.official@gmail.com</span>
+                        <span goto="mailto:gradpass.official@gmail.com" class="font-bold cursor-pointer text-blue-700 hover:text-blue-600">gradpass.official@gmail.com</span>
                     </div>
                     <div class="flex-1 font-bold max-w-[800px] text-center">
                         I'm happy to respond to questions, concerns or additions to this app. It's always being updated, and upgraded. Making it faster, and better day by day.
